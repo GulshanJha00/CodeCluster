@@ -28,6 +28,16 @@ body{
     padding: 40px 50px;
     font-size: 25px;
 }
+#nav h2{
+    overflow: hidden;
+}
+
+
+#nav h2 span{
+    display: inline-block;
+}
+
+
 #nav i{
     font-weight: 800;
     cursor: pointer;
