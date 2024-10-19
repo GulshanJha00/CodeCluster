@@ -62,5 +62,29 @@ body{
 #contest{
     height: 100%;
     width: 100%;
-    background-color: rgb(0, 255, 21);
+    background-color: rgb(0, 217, 255);
+}
+
+#card{
+    height: 100%;
+    width: 100%;
+}
+#contest h2{
+    padding: 40px;
+    font-size: 3rem;
+    white-space: nowrap;
+    color: wheat;
+}
+#card h1{
+    font-size: 20rem;
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: aquamarine;
+}
+
+#page3{
+    height: 100%;
+    width: 100%;
+    background-color: red;
 }

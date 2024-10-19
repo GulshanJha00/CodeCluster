@@ -24,3 +24,15 @@ main.addEventListener("click", ()=>{
 cursor.addEventListener("click",()=>{
     tl.reverse()
 })
+
+gsap.to("#card h1", {
+    transform: "translateX(-190%)",
+    scrollTrigger: {
+        trigger: "#contest",
+        scroller: "body",
+        start: "top top",
+        end: "bottom top",
+        scrub: 2,
+        pin:true,
+    }
+})
