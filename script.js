@@ -88,3 +88,27 @@ gsap.from("#nav h2 .b",{
 
 
 //Registration Page Animation 
+
+window.addEventListener("wheel", function(dets){
+    if(dets.deltaY>0){
+        gsap.to(".marque", {
+            transform: "translateX(-400%)",
+            repeat: -1, 
+            duration: 4, 
+            ease : "none"
+        })
+        gsap.to(".marque img",{
+            rotate: 180,
+        })
+    } else{
+        gsap.to(".marque", {
+            transform: "translateX(0%)",
+            repeat: -1, 
+            duration: 4, 
+            ease : "none"
+        })
+        gsap.to(".marque img",{
+            rotate: 0,
+        })
+    }
+})

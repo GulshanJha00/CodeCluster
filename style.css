@@ -93,8 +93,35 @@ body{
     color: aquamarine;
 }
 
-#page3{
+#page4, #page3{
     height: 100%;
     width: 100%;
     background-color: red;
+}
+
+#move{
+    background-color: lawngreen;
+    display: flex;
+    padding: 3vw 0;
+    overflow: hidden;
+
+}
+
+.marque{
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    padding: 0 0.1vw;
+    gap: 10vw;
+    transform: translateX(-100%);
+}
+.marque h1 a{
+    height: 50vw;
+    text-decoration: none;
+    color: red;
+    margin-left: 4vw;
+}
+
+.marque img{
+    height: 7vw;
 }
