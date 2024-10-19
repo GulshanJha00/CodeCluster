@@ -1,3 +1,4 @@
+Heading Animation:- 
 boiler plate
 place the item in center
 in h1 make sheryians or any text
@@ -42,3 +43,61 @@ gsap.from("h1 .a", {
 gsap.from("h1 .b", {
     y = 50 opacity 0 duration 0.8 delay 0.5 stagger: -0.15
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Registration Page:- 
+make a additional page of page 4
+make page 4 h,w:- 100% 
+
+Now in page 3 make move div id move and make another div class marque and give h1 Register now and one img tag
+get the image from brandium website and give it in src
+
+#move {
+    bg-color lawngreen
+}
+#move marque img{
+    height 90px and h1 is 70px
+}
+
+.marque me flex and align item center with padding 0 and 0.1 vw and gap 3vw
+
+5 baar marque ko copy paste karo aur move to v flex krdo and padding add karo 3vw and 0 aur marque me ja ke flex-shrink: 0 krdo  make move overflow hidden
+
+add padding in pages 5vw 0
+ 
+
+Now css is done and time for the javascript
+
+Windows me addevent karo aur event will be wheel, and pass the arguemtn as dets now in console.log get dets.deltaY what will happen?
+deltaY will give +ve value when going down and -ve value when mouse wheel spin to go above in y direction
+
+now inside the windows.addevent add if(dets.deltaY>0) 
+make gsap.to(".marque",{
+    transform: "tranlateX(-200%)
+    RPEAT -1,   duration 1s, ease : "none"
+})
+make suer to put transofrm translate -100% in css and in ese give it 0%
+
+inside else select img and bive rotate 180and copy paste in else as rotate 0

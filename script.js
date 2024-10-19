@@ -9,13 +9,13 @@ tl.to("#full", {
 tl.from("#full h4", {
     x:150,
     opacity:0,
-    duration: 0.5,
-    stagger: 0.3,
+    duration: 0.3,
+    stagger: 0.2,
 })
 tl.from("#full i", {
     opacity: 0,
     x:150,
-    duration:0.5,
+    duration:0.2,
 })
 tl.pause()
 main.addEventListener("click", ()=>{
@@ -44,7 +44,7 @@ gsap.to("#card h1", {
 
 
 
-
+//Headline Animation
 
 var h1 = document.querySelector(".heading");
 var h1Text = h1.textContent;
@@ -85,3 +85,6 @@ gsap.from("#nav h2 .b",{
     delay : 0.5,
     stagger : -0.15,
 })
+
+
+//Registration Page Animation 
